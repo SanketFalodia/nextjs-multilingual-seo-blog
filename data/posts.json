@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "slug": "getting-started-with-nextjs",
+    "title": "Getting Started with Next.js",
+    "content": "Next.js is a React framework that enables server-side rendering, static site generation, and more out of the box. It provides a powerful set of features like file-based routing, API routes, and optimized image handling. Whether you're building a simple blog or a complex web application, Next.js gives you the tools to ship fast, SEO-friendly pages with minimal configuration. The App Router introduces a new way to structure your application using nested layouts and server components, making it easier than ever to build rich, interactive experiences.",
+    "date": "2025-01-15"
+  },
+  {
+    "id": 2,
+    "slug": "understanding-static-site-generation",
+    "title": "Understanding Static Site Generation",
+    "content": "Static Site Generation (SSG) means building pages at compile time rather than at request time. This approach produces pre-rendered HTML files that can be served instantly from a CDN, resulting in blazing-fast page loads and excellent SEO. In Next.js, you can use generateStaticParams to pre-render dynamic routes at build time. The result is a set of static HTML pages that are ready to be deployed anywhere — no server required. SSG is ideal for content that doesn't change frequently, such as blog posts, documentation, and marketing pages.",
+    "date": "2025-02-08"
+  },
+  {
+    "id": 3,
+    "slug": "styling-with-tailwind-css",
+    "title": "Styling with Tailwind CSS",
+    "content": "Tailwind CSS is a utility-first CSS framework that lets you build custom designs without leaving your HTML. Instead of writing separate CSS files, you compose styles directly in your markup using small, composable utility classes. This approach keeps your styles co-located with your components, eliminates dead CSS, and makes it easy to maintain a consistent design system. Tailwind also includes a powerful configuration file that lets you customize colors, spacing, typography, and more to match your brand. With features like dark mode support and responsive utilities, Tailwind is a fantastic companion to Next.js projects.",
+    "date": "2025-03-22"
+  },
+  {
+    "id": 4,
+    "slug": "deploying-your-first-app",
+    "title": "Deploying Your First App",
+    "content": "Deploying a Next.js application is straightforward thanks to the framework's static export capabilities and wide hosting support. You can deploy to platforms like Netlify, Vercel, or any static file host. Before deploying, make sure your build passes locally and that all dynamic routes are covered by generateStaticParams if you're using SSG. Once your build is ready, the output folder contains everything you need — HTML, CSS, JavaScript, and assets. Push your code to a repository, connect it to your hosting provider, and watch your site go live in minutes.",
+    "date": "2025-04-10"
+  }
+]
