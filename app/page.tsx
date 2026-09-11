@@ -6,13 +6,21 @@ export default function Home() {
 
   return (
     <main className="mx-auto max-w-3xl px-6 py-16">
-      <header className="mb-12">
-        <h1 className="text-4xl font-bold tracking-tight text-foreground">
-          Blog
-        </h1>
-        <p className="mt-3 text-lg text-muted-foreground">
-          Thoughts, guides, and notes on web development.
-        </p>
+      <header className="mb-12 flex items-start justify-between gap-4">
+        <div>
+          <h1 className="text-4xl font-bold tracking-tight text-foreground">
+            Blog
+          </h1>
+          <p className="mt-3 text-lg text-muted-foreground">
+            Thoughts, guides, and notes on web development.
+          </p>
+        </div>
+        <Link
+          href="/hi"
+          className="shrink-0 text-sm font-medium text-primary hover:underline"
+        >
+          हिन्दी
+        </Link>
       </header>
 
       <div className="flex flex-col gap-8">
