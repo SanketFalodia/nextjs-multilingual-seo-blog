@@ -4,7 +4,10 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://your-site.pages.dev';
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: 'Blog',
   description: 'Thoughts, guides, and notes on web development.',
   openGraph: {
