@@ -6,6 +6,12 @@ export default function Home() {
 
   return (
     <main className="mx-auto max-w-3xl px-6 py-16">
+      <div className="flex justify-end py-4">
+  <Link href="/hi" className="text-sm font-semibold text-blue-600 hover:underline">
+    हिंदी संस्करण (Hindi Website) 🌐
+  </Link>
+</div>
+
       <header className="mb-12 flex items-start justify-between gap-4">
         <div>
           <h1 className="text-4xl font-bold tracking-tight text-foreground">
