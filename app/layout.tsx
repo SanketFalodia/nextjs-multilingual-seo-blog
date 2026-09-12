@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://your-site.pages.dev';
+const SITE_URL = 'https://nextjs-multilingual-seo-blog.s-falodia2006.workers.dev';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
