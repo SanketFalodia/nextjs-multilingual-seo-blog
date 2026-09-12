@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://your-site.pages.dev';
+const SITE_URL = 'https://nextjs-multilingual-seo-blog.s-falodia2006.workers.dev';
 
 export default function robots(): MetadataRoute.Robots {
   return {
