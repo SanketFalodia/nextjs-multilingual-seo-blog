@@ -2,7 +2,7 @@
 
 Welcome to the **Next.js Multilingual SEO Blog**! This project is being engineered as a take-home technical assignment for the Web Development & AI-Powered SEO Intern role. It is a highly optimized, statically generated multilingual blog built to automate content translation and implement advanced technical SEO architecture.
 
-🚀 **Live Demo:** *[Link coming soon upon Cloudflare Pages deployment]*  
+🚀 **Live Demo:https://nextjs-multilingual-seo-blog.s-falodia2006.workers.dev/
 📂 **GitHub Repository:** [SanketFalodia/nextjs-multilingual-seo-blog](https://github.com)
 
 ---
