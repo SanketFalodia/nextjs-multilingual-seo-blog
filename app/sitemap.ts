@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllPosts, getAllPostsHi } from '@/lib/posts';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://your-site.pages.dev';
+const SITE_URL = 'https://nextjs-multilingual-seo-blog.s-falodia2006.workers.dev';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const posts = getAllPosts();
