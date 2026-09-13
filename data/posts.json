@@ -26,12 +26,5 @@
     "title": "Deploying Your First App",
     "content": "Deploying a Next.js application is straightforward thanks to the framework's static export capabilities and wide hosting support. You can deploy to platforms like Netlify, Vercel, or any static file host. Before deploying, make sure your build passes locally and that all dynamic routes are covered by generateStaticParams if you're using SSG. Once your build is ready, the output folder contains everything you need — HTML, CSS, JavaScript, and assets. Push your code to a repository, connect it to your hosting provider, and watch your site go live in minutes.",
     "date": "2025-04-10"
-  },
-  {
-    "id": 5,
-    "slug": "why-multilingual-seo-matters",
-    "title": "Why Multilingual SEO Matters",
-    "content": "Serving content in more than one language is only half the job — search engines also need to understand that two pages are translations of each other, not duplicate content competing against each other. The hreflang attribute solves this by explicitly linking language variants of the same page together. Combined with a proper sitemap and clean canonical URLs, this tells crawlers exactly which version to show a user based on their language and region, improving both discoverability and the user experience across markets.",
-    "date": "2025-06-18"
   }
 ]
