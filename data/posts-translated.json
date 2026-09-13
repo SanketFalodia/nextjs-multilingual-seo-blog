@@ -1,13 +1,5 @@
 [
   {
-    "id": 5,
-    "slug": "why-multilingual-seo-matters",
-    "title": "[मॉक अनुवाद] Why Multilingual SEO Matters",
-    "content": "[मॉक अनुवाद] Serving content in more than one language है only half job — search engines also need को understand that two पेज्स हैं translations of each other, not duplicate content competing against each other. hreflang attribute solves this by explicitly linking language variants of same पेज together. Combined के साथ एक proper sitemap और clean canonical URLs, this tells crawlers exactly which version को show एक user based on their language और region, improving both discoverability और user experience across markets.",
-    "date": "2025-06-18",
-    "lang": "hi"
-  },
-  {
     "id": 4,
     "slug": "deploying-your-first-app",
     "title": "अपना पहला ऐप डिप्लॉय करना",
